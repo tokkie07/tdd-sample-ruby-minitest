@@ -13,13 +13,13 @@ describe Numerics do
     }
   end
   
-  if 'even test (false)' do
+  it 'even test (false)' do
      assert {
       Numerics.even?(3) == false
      }
   end
   
-  if 'even test (true)' do
+  it 'even test (true)' do
      assert {
       Numerics.even?(4) == true
      }
